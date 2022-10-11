@@ -9,4 +9,3 @@ RUN apt-get update \
     && echo "deb http://download.proxmox.com/debian/pbs-client bullseye main" >> /etc/apt/sources.list \
     && apt-get update \
     && apt-get -y install proxmox-backup-client
-    
